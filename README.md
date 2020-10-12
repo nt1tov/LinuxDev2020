@@ -14,6 +14,7 @@ The following topics are covered:
 * Reuse of code, including third-party developed code
 * Translation and internationalization
 * Final installation and distribution of the software product
+
 For each topic, it is intended to highlight the theoretical foundations necessary for understanding it, give an overview of the tools used, and show the process of using one of these tools to solve practical problems independently.
 
 
