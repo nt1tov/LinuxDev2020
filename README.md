@@ -1,4 +1,4 @@
-##  GNU/Linux application software development (Technical aspects of GNU/Linux application software development)
+##  Technical aspects of GNU/Linux application software development
 
 [Link to course page](https://uneex.ru/LecturesCMC/LinuxApplicationDevelopment2020)
 
