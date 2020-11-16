@@ -23,7 +23,7 @@ msgstr ""
 
 
 #: main.c:28
-msgid ""NumFinder can find number between"
+msgid "NumFinder can find number between"
 msgstr "ИскательЧисел может найт число между"
 
 #: main.c:28
