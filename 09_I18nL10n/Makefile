@@ -9,7 +9,7 @@ ru/LC_MESSAGES/numfinder.mo: ru_numfinder.po
 ru_numfinder.po: numfinder.pot
 	msgmerge -U $@ $<
 
-numfinder.pot:	main.c
+numfinder.pot:	main.c numfinder.pot
 	xgettext -k_ -c main.c -o numfinder.new.pot
 	msgmerge -U numfinder.pot numfinder.new.pot
 	rm numfinder.new.pot
@@ -22,4 +22,7 @@ ru_numfinder:numfinder
 
 gitclean:
 	git clean -fd
+
+clean:
+	rm -rf ru messages.new.pot messages.pot
 
