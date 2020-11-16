@@ -21,21 +21,31 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: guess.c:22
-#, c-format
-msgid "Is number greater than"
-msgstr ""
 
-#: guess.c:28
+#: main.c:28
+msgid ""NumFinder can find number between"
+msgstr "ИскательЧисел может найт число между"
+
+#: main.c:28
+msgid "and"
+msgstr "и"
+
+#: main.c:40
+msgid "Is number greater than"
+msgstr "Больше ли число чем"
+
+#: main.c:42
 msgid "yes"
 msgstr "да"
 
-#: guess.c:28
-#, fuzzy
+#: main.c:45
 msgid "no"
-msgstr ""
+msgstr "нет"
 
-#: guess.c:36
-#, c-format
-msgid "Your number is"
-msgstr """
+#: main.c:49
+msgid "Failed to read. Try again."
+msgstr "Не удалось прочитать. Попробуйте снова."
+
+#: main.c:54
+msgid "Number is found! It is"
+msgstr "Число найдено! Это"

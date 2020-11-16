@@ -25,31 +25,32 @@ int main(int argc, char** argv){
 	}
 	textdomain ("numfinder");
 
-	printf(_("NumFinder can findnumber between %d and %d"), MIN_NUMBER, MAX_NUMBER);
+	printf("%s %d %s %d.\n", _("NumFinder can findnumber between"), MIN_NUMBER, _("and") MAX_NUMBER);
 	int lhs = MIN_NUMBER;
 	int rhs = MAX_NUMBER;
 
 	char buf[BUFSIZE];
 
 	while(rhs-lhs > 1){
-		int guessed = (rhs+lhs)/2;
+		int founded = (rhs+lhs)/2;
 		int need2input = 1;
 
 		while(need2input){
 			need2input = 0;
-			printf(_("Is  number greater than %d?"), guessed);
+			printf("%s %d?", _("Is number greater than"), founded);
 			scanf("%10s", buf);
-			if(strcmp("yes", buf) == 0){
-				lhs = guessed;
+			if(strcmp(_("yes"), buf) == 0){
+				lhs = founded;
 			}
-			else if (strcmp("no", buf) == 0){
-				rhs = guessed;
+			else if (strcmp(_("no"), buf) == 0){
+				rhs = founded;
 			}
 			else{
+				printf(_("Failed to read. Try again.\n"));
 				need2input = 1;
 			}
 		}
 	}
-	printf(_("Number is found! Number is: %d"), rhs);
+	printf("%s: %d\n", _("Number is found! It is"), rhs);
 	return 0;
 }
