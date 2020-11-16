@@ -14,7 +14,7 @@
 #define BUFSIZE 20
 
 
-int main(int argc, char** argv){
+int main(int argc, char* argv[]){
 
 	setlocale (LC_ALL, "");
     if (getenv("PO_LOCAL")){
@@ -25,7 +25,7 @@ int main(int argc, char** argv){
 	}
 	textdomain ("numfinder");
 
-	printf("%s %d %s %d.\n", _("NumFinder can findnumber between"), MIN_NUMBER, _("and") MAX_NUMBER);
+	printf("%s %d %s %d.\n", _("NumFinder can findnumber between"), MIN_NUMBER, _("and"), MAX_NUMBER);
 	int lhs = MIN_NUMBER;
 	int rhs = MAX_NUMBER;
 
@@ -46,7 +46,7 @@ int main(int argc, char** argv){
 				rhs = founded;
 			}
 			else{
-				printf(_("Failed to read. Try again.\n"));
+				printf("%s \n", _("Failed to read. Try again."));
 				need2input = 1;
 			}
 		}
