@@ -1,20 +1,18 @@
 bin_PROGRAMS=numfinder
-numfinder_SOURCES =main.c
+numfinder_SOURCES=main.c
 pkgdata_DATA=ru/LC_MESSAGES/numfinder.mo
 
 ru/LC_MESSAGES/numfinder.mo: ru_numfinder.po
 	mkdir -p `dirname $@`
 	msgfmt $< -o $@
 
-ru_numfinder.po:	numfinder.pot
+ru_numfinder.po: numfinder.pot
 	msgmerge -U $@ $<
 
 numfinder.pot:	main.c
 	xgettext -k_ -c main.c -o numfinder.new.pot
 	msgmerge -U numfinder.pot numfinder.new.pot
 	rm numfinder.new.pot
-
-update_pot_po_file: numfinder.pot ru.po
 
 en_numfinder: numfinder
 	./numfinder
