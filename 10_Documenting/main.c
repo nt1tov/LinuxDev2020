@@ -139,7 +139,7 @@ char* roman_numbers[100] = {
  * @returns number in roman digits representation char array or null poinTer 
  */
 char * arabic2roman(int num) {
-  if (num > 0 && num < 101) {
+  if (num > 0 && num < 100) {
     return roman_numbers[num-1];
   }
   return NULL;
@@ -150,7 +150,7 @@ char * arabic2roman(int num) {
  * @param num contains roman number as char array
  * @return arabic number its integer between 1 or 100
  */
-int roman2arabic(char *numb) {
+int roman2arabic(char *num) {
   for (int i = 0; i < 100; ++i) {
     if (strcmp(num, roman_numbers[i]) == 0) {
       return i+1;
