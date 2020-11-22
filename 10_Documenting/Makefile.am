@@ -27,4 +27,5 @@ gitclean:
 
 clean:
 	rm -rf ru messages.new.pot messages.pot
-all-local: doxygen-doc
+doxygen:
+	make doxygen-doc
