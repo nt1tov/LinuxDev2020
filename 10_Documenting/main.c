@@ -24,7 +24,6 @@
 Usage: numfiner [OPTIONS] \n\
 \n\
     --help		    print this help, then exit\n\
-    --version		print version number, then exit\n\
 	-r		        use Roman digits notation\n\
 \n\
 The NumFinder program finds guessed integer [1..100]  based on an input\n\
@@ -161,7 +160,7 @@ int roman2arabic(char *numb) {
 }
 int main(int argc, char* argv[]){
 	int ROMAN_DIGITS_FLAG = 0;
-	
+
 	setlocale (LC_ALL, "");
     if (getenv("PO_LOCAL")){
 		bindtextdomain("numfinder", LOCALE_PATH);
@@ -214,10 +213,10 @@ int main(int argc, char* argv[]){
 			}
 		}
 	}
-	if(ROMAN_DIGITS_FLAG){	
+	if(ROMAN_DIGITS_FLAG){
 		printf("%s: %s\n", _("Number is found! It is"), arabic2roman(rhs));
 	}
-	else{	
+	else{
 		printf("%s: %d\n", _("Number is found! It is"), rhs);
 	}
 	return 0;

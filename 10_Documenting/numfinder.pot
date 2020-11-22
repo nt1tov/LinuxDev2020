@@ -17,34 +17,58 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: main.c:181
+#: main.c:174
+#, c-format
+msgid ""
+"   Numfinder is used for finding number betwen 1 and 100\n\
+"   \n\
+"   Usage: numfiner [OPTIONS] \n\
+"   \n\
+"   --help		    print this help, then exit\n\
+"   -r		        use Roman digits notation\n\
+"   \n\
+"   The NumFinder program finds guessed integer [1..100]  based on an input\n\
+"   answers. \n\
+"   "
+msgstr ""
+
+#: main.c:180
 msgid "NumFinder can findnumber between I and C"
 msgstr ""
 
-#: main.c:184 
-msgid "Numfinder can findnumber between"
+#: main.c:183
+msgid "NumFinder can findnumber between"
 msgstr ""
 
-#: main.c:184
+#: main.c:183
 msgid "and"
 msgstr ""
 
-#: main.c:199
+#: main.c:198
 msgid "Is number greater than"
 msgstr ""
 
-#: main.c:205
+#: main.c:201
+msgid "Is number greater than"
+msgstr ""
+
+#: main.c:204
 msgid "yes"
 msgstr ""
 
-#: main.c:208
+#: main.c:207
 msgid "no"
 msgstr ""
 
-#: main.c:212
+#: main.c:211
 msgid "Failed to read. Try again."
 msgstr ""
 
-#: main.c:218
+
+#: main.c:217
+msgid "Number is found! It is"
+msgstr ""
+
+#: main.c:220
 msgid "Number is found! It is"
 msgstr ""
