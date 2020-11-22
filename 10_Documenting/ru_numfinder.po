@@ -23,26 +23,26 @@ msgstr ""
 #: main.c:174
 #, c-format
 msgid ""
-"   Numfinder is used for finding number betwen 1 and 100\n\
-"   \n\
-"   Usage: numfiner [OPTIONS] \n\
-"   \n\
-"   --help		    print this help, then exit\n\
-"   -r		        use Roman digits notation\n\
-"   \n\
-"   The NumFinder program finds guessed integer [1..100]  based on an input\n\
-"   answers. \n\
+"   Numfinder is used for finding number betwen 1 and 100\n\"
+"   \n\"
+"   Usage: numfiner [OPTIONS] \n\"
+"   \n\"
+"   --help		    print this help, then exit\n\"
+"   -r		        use Roman digits notation\n\"
+"   \n\"
+"   The NumFinder program finds guessed integer [1..100]  based on an input\n\"
+"   answers. \n\"
 "   "
 msgstr ""
-"   ИскательЧисел используется для поиска чисел между 1 и 100n\
-"   \n\
-"   Использование: numfiner [опции] \n\
-"   \n\
-"   --help		    напечать этот раздел помощи, затем выйти\n\
-"   -r		        использовать римские циры для записиn\
-"   \n\
-"   ИскательЧисел используется для поиска чисел между 1 и 100, основанная\n\
-"   на входных воросах. \n\
+"   ИскательЧисел используется для поиска чисел между 1 и 100n\"
+"   \n\"
+"   Использование: numfiner [опции] \n\"
+"   \n\"
+"   --help		    напечать этот раздел помощи, затем выйти\n\"
+"   -r		        использовать римские циры для записиn\"
+"   \n\"
+"   ИскательЧисел используется для поиска чисел между 1 и 100, основанная\n\"
+"   на входных воросах. \n\"
 "   "
 
 #: main.c:180
