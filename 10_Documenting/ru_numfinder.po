@@ -24,32 +24,34 @@ msgstr ""
 #, c-format
 msgid ""
 "   Numfinder is used for finding number betwen 1 and 100\n\"
-"   \n\"
-"   Usage: numfiner [OPTIONS] \n\"
-"   \n\"
-"   --help		    print this help, then exit\n\"
-"   -r		        use Roman digits notation\n\"
-"   \n\"
-"   The NumFinder program finds guessed integer [1..100]  based on an input\n\"
-"   answers. \n\"
+"   \n"
+"   Usage: numfiner [OPTIONS] \n"
+"   \n"
+"   --help		    print this help, then exit\n"
+"   -r		        use Roman digits notation\n"
+"   \n"
+"   The NumFinder program finds guessed integer [1..100]  based on an input\n"
+"   answers. \n"
 "   "
 msgstr ""
-"   ИскательЧисел используется для поиска чисел между 1 и 100n\"
-"   \n\"
-"   Использование: numfiner [опции] \n\"
-"   \n\"
-"   --help		    напечать этот раздел помощи, затем выйти\n\"
-"   -r		        использовать римские циры для записиn\"
-"   \n\"
-"   ИскательЧисел используется для поиска чисел между 1 и 100, основанная\n\"
-"   на входных воросах. \n\"
+"   ИскательЧисел используется для поиска чисел между 1 и 100n"
+"   \n"
+"   Использование: numfiner [опции] \n"
+"   \n"
+"   --help		    напечать этот раздел помощи, затем выйти\n"
+"   -r		        использовать римские циры для записиn"
+"   \n"
+"   ИскательЧисел используется для поиска чисел между 1 и 100, основанная\n"
+"   на входных воросах. \n"
 "   "
 
 #: main.c:180
+#, c-format
 msgid "NumFinder can findnumber between I and C"
 msgstr "ИскательЧисел может найти число между  I and C"
 
 #: main.c:183
+#, c-format
 msgid "NumFinder can findnumber between"
 msgstr "ИскательЧисел может найти число между"
 
@@ -57,11 +59,8 @@ msgstr "ИскательЧисел может найти число между"
 msgid "and"
 msgstr "и"
 
-#: main.c:198
-msgid "Is number greater than"
-msgstr "Больше ли число чем"
-
-#: main.c:201
+#: main.c:198 main.c:201
+#, c-format
 msgid "Is number greater than"
 msgstr "Больше ли число чем"
 
@@ -74,14 +73,13 @@ msgid "no"
 msgstr "нет"
 
 #: main.c:211
+#, c-format
 msgid "Failed to read. Try again."
 msgstr "Не удалось прочитать. Попробуйте снова."
 
 
-#: main.c:217
+#: main.c:217 main.c:220
+#, c-format
 msgid "Number is found! It is"
 msgstr "Число найдено! Это"
 
-#: main.c:220
-msgid "Number is found! It is"
-msgstr "Число найдено! Это"
