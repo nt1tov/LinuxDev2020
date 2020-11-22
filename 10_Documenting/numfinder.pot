@@ -1,0 +1,50 @@
+# Guess number program
+# Copyright (C) 2020 Nikolay Titov
+# This file is distributed under the same license as the guess package.
+# Nikolay Titov <example@gmail.com>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: numfinder 0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-16 22:22+0000\n"
+"PO-Revision-Date: 2020-11-16 00:00+0300\n"
+"Last-Translator: Nikolay Titov <example@gmail.com>\n"
+"Language-Team: Nikolay Titov <example@gmail.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: main.c:181
+msgid "NumFinder can findnumber between I and C"
+msgstr ""
+
+#: main.c:184 
+msgid "Numfinder can findnumber between"
+msgstr ""
+
+#: main.c:184
+msgid "and"
+msgstr ""
+
+#: main.c:199
+msgid "Is number greater than"
+msgstr ""
+
+#: main.c:205
+msgid "yes"
+msgstr ""
+
+#: main.c:208
+msgid "no"
+msgstr ""
+
+#: main.c:212
+msgid "Failed to read. Try again."
+msgstr ""
+
+#: main.c:218
+msgid "Number is found! It is"
+msgstr ""
