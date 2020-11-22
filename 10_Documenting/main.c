@@ -20,14 +20,14 @@
 
 /** Help str */
 #define MANUAL _("Numfinder is program for guessing nums\n\
-"\n\
-"Usage: numfinder [OPTION]\n\
-"\n\
+\n\
+Usage: numfinder [OPTION]\n\
+\n\
     --help      print this help, then end program\n\
-"    -r         use roman digits notation\n\
-"\n\
-"The NumFinder program finds guessed integer [1..100]\n\
-"It uses roman and arabic number digit \n\
+    -r         use roman digits notation\n\
+\n\
+The NumFinder program finds guessed integer [1..100]\n\
+It uses roman and arabic number digit \n\
 ")
 
 char* roman_numbers[100] = {
