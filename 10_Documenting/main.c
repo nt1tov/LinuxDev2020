@@ -171,7 +171,7 @@ int main(int argc, char* argv[]){
 	textdomain ("numfinder");
 
 	if (argc == 2 && strcmp(argv[1], "--help") == 0) {
-		printf("%s.\n", _(MANUAL);
+		printf("%s.\n", MANUAL);
 		return 0;
 	}
 
