@@ -3,7 +3,6 @@
  *
  * It Finds Number using yes/no questions
  */
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -19,16 +18,17 @@
 
 #define BUFSIZE 20
 
-
-
-
-
-
-
-
-
-
-
+/** Help str */
+#define MANUAL _("Numfinder is program for guessing nums\n"\
+"\n\
+"Usage: numfinder [OPTION]\n\
+"\n\
+    --help      print this help, then end program\n\
+"    -r         use roman digits notation\n\
+"\n\
+"The NumFinder program finds guessed integer [1..100]\n\
+"It uses roman and arabic number digit \n\
+")
 
 char* roman_numbers[100] = {
   "I",
@@ -171,14 +171,7 @@ int main(int argc, char* argv[]){
 	textdomain ("numfinder");
 
 	if (argc == 2 && strcmp(argv[1], "--help") == 0) {
-		printf(_("\
-			Numfinder is used for finding number betwen 1 and 100\n\
-   			Usage: numfiner [OPTIONS]\n\
-   			\t--help\t\tprint this help, then end program\n\
-   			\t-r\t\tuse roman digits notation\n\
-   			The NumFinder program finds guessed integer [1..100]  based on an input\n\
-   			answers."\
-		));
+		printf("%s.\n", _(MANUAL);
 		return 0;
 	}
 
