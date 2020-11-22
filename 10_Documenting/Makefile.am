@@ -11,7 +11,7 @@ ru/LC_MESSAGES/numfinder.mo: ru_numfinder.po
 ru_numfinder.po: numfinder.pot
 	msgmerge -U $@ $<
 
-numfinder.pot:	main.c  
+numfinder.pot:	main.c
 	xgettext -k_ -c main.c -o numfinder.new.pot
 	msgmerge -U numfinder.pot numfinder.new.pot
 	rm numfinder.new.pot

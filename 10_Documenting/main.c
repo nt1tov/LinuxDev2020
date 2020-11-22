@@ -19,13 +19,13 @@
 
 #define BUFSIZE 20
 
-#define MANUAL "Numfinder is used for finding number betwen 1 and 100\n\
-Usage: numfiner [OPTIONS] \n\
-    --help		    print this help, then exit\n\
-	-r		        use Roman digits notation\n\
-The NumFinder program finds guessed integer [1..100]  based on an input\n\
-answers.\
-"
+
+
+
+
+
+
+
 
 
 
@@ -171,7 +171,14 @@ int main(int argc, char* argv[]){
 	textdomain ("numfinder");
 
 	if (argc == 2 && strcmp(argv[1], "--help") == 0) {
-		printf(_(MANUAL));
+		printf(_("\
+			Numfinder is used for finding number betwen 1 and 100\n\
+   			Usage: numfiner [OPTIONS]\n\
+   			\t--help\t\tprint this help, then end program\n\
+   			\t-r\t\tuse roman digits notation\n\
+   			The NumFinder program finds guessed integer [1..100]  based on an input\n\
+   			answers."\
+		));
 		return 0;
 	}
 

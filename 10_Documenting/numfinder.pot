@@ -20,13 +20,12 @@ msgstr ""
 #: main.c:174
 #, c-format
 msgid ""
-"   Numfinder is used for finding number betwen 1 and 100\n"
-"   Usage: numfiner [OPTIONS] \n"
-"   --help		    print this help, then exit\n"
-"   -r		        use Roman digits notation\n"
-"   The NumFinder program finds guessed integer [1..100]  based on an input\n"
-"   answers."
-msgstr ""
+"Numfinder is used for finding number betwen 1 and 100\n"
+"Usage: numfiner [OPTIONS]\n"
+"\t--help\t\tprint this help, then end program\n"
+"\t-r\t\tuse roman digits notation\n"
+"The NumFinder program finds guessed integer [1..100]  based on an input\n"
+"answers."
 
 #: main.c:180
 #, c-format
