@@ -19,7 +19,7 @@
 #define BUFSIZE 20
 
 /** Help str */
-#define MANUAL _("Numfinder is program for guessing nums\n"\
+#define MANUAL _("Numfinder is program for guessing nums\n\
 "\n\
 "Usage: numfinder [OPTION]\n\
 "\n\
