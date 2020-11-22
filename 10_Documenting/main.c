@@ -20,15 +20,15 @@
 #define BUFSIZE 20
 
 #define MANUAL "Numfinder is used for finding number betwen 1 and 100\n\
-\n\
 Usage: numfiner [OPTIONS] \n\
-\n\
     --help		    print this help, then exit\n\
 	-r		        use Roman digits notation\n\
-\n\
 The NumFinder program finds guessed integer [1..100]  based on an input\n\
-answers. \n\
+answers.\
 "
+
+
+
 
 char* roman_numbers[100] = {
   "I",
