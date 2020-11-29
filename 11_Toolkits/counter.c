@@ -12,7 +12,7 @@ gint comparator_func(gconstpointer lhs, gconstpointer rhs, gpointer cnt) {
   gpointer p_lhs = g_hash_table_find(cnt, (GHRFunc)cmper, (gpointer)lhs);
   gpointer p_rhs = g_hash_table_find(cnt, (GHRFunc)cmper, (gpointer)rhs);
 
-  return *((gint *)p_rhs - *((gint *)p_lhs);
+  return *((gint *)p_rhs) - *((gint *)p_lhs);
 }
 
 void print(gpointer str, gpointer cnt) {
