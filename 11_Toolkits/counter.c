@@ -12,12 +12,12 @@ gint comparator_func(gconstpointer lhs, gconstpointer rhs, gpointer cnt) {
   gpointer p_lhs = g_hash_table_find(cnt, (GHRFunc)cmper, (gpointer)lhs);
   gpointer p_rhs = g_hash_table_find(cnt, (GHRFunc)cmper, (gpointer)rhs);
 
-  return *((gint *)p_rhs) - *((gint *)p_lhs);
+  return *((gint *)p_rhs - *((gint *)p_lhs);
 }
 
 void print(gpointer str, gpointer cnt) {
-  gpointer count = g_hash_table_find(cnt, (GHRFunc)cmper, str);
-  printf("%s\t%d\n", (char* )str, *(gint* )cnt);
+  gpointer cnt_val = g_hash_table_find(cnt, (GHRFunc)cmper, str);
+  printf("%s\t%d\n", (char* )str, *(gint* )cnt_val);
 }
 
 int main(int argc, char** argv) {
