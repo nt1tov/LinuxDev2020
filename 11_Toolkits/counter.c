@@ -39,11 +39,11 @@ int main(int argc, char** argv) {
     for (int i = 0; line_splitted[i]; ++i) {
       gpointer p_elem = g_hash_table_find(ctable, (GHRFunc)cmper, line_splitted[i]);
       if (p_elem) {
-        (*(gint *)item_ptr)++;
+        (*(gint *)p_elem)++;
       }
       else {
         gint* new_cnt = g_new(gint, 1);
-        *tmp = 1;
+        *new_cnt = 1;
         gchar* word_tmp = g_strdup(line_splitted[i]);
         g_hash_table_insert(ctable, word_tmp, new_cnt);
       }
