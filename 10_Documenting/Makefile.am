@@ -29,3 +29,10 @@ clean:
 	rm -rf ru messages.new.pot messages.pot
 doxygen:
 	make doxygen-doc
+
+cleanall: clean
+	rm compile config.status
+
+	rm -rf doxygen-doc numfinder configure *~ *.o *.log *.in *.m4 config.h* \
+		   Makefile depcomp config.status \
+		   compile install-sh missing stamp-h1 autom4te.cache .deps
